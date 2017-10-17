@@ -1557,7 +1557,7 @@ $('.color_blocks_subcatsearch').click(function (e) {
   
   
   
-<div class="body_main_section" style="background-image:url(images/body_bg.jpg); background-repeat:repeat-x;">
+<div class="body_main_section">
     <div class="body_main_section2">
         <div class="body_main_section_search">
             <div class="innerpage_mainbody_search2"></div>
@@ -1752,14 +1752,14 @@ $('.color_blocks_subcatsearch').click(function (e) {
                     <input type="hidden" value="" name="added_now" id="added_now"/>
                     <form id="frmFltr" name="frmFltr" action="site_product.php" method="post">
                         <input type="hidden" name="pId" value="1400"/>
-                        <div class="col-xs-1">
-                            <div class="full3__content-text" style="margin-left: 15px;">
+                        <div class="col-xs-2 col-sm-1 full3__content-text-indent">
+                            <div class="full3__content-text full3__content-text-first">
                                 Quantity
                             </div>
                         </div>
-                        <div class="col-xs-1">
-                            <div class="full3__content">
-                                <select name="qty" class="inputtextbox4" id="qty" autocomplete="off" style="font-weight:bold; color:#FF0000;">
+                        <div class="col-xs-10 col-sm-1 full3__content-text-indent">
+                            <div>
+                                <select name="qty" class="inputtextbox4 full3__content-first" id="qty" autocomplete="off">
                                     <option  value="250" >250</option>
                                     <option  value="500" >500</option>
                                     <option  value="1000" >1000</option>
@@ -1769,34 +1769,33 @@ $('.color_blocks_subcatsearch').click(function (e) {
                                 </select>
                             </div>
                         </div>
-                        <div class="col-xs-1">
-                            <div class="full3__content-text" style="margin-left: 25px;">
+                        <div class="col-xs-2 col-sm-1 full3__content-text-indent">
+                            <div class="full3__content-text full3__content-text-second">
                                 Pages
                             </div>
                         </div>
-                        <div class="col-xs-1">
-                            <div class="full3__content">
+                        <div class="col-xs-10 col-sm-1 full3__content-text-indent">
+                            <div class="full3__content-second">
                                 <select name="multipage" class="inputtextbox4"  id="multipage">
                                     <option value="76" selected>76</option>
                                     <option value="100" >100</option>
                                 </select>
                             </div>
                         </div>
-                        <div class="col-xs-2"></div>                             
-                        <div class="col-xs-1">
-                            <div class="full3__content-text" style="width: 103%;margin-left: 13px;">
+                        <div class="col-xs-2 full3__content-null"></div>                             
+                        <div class="col-xs-2 col-sm-1 full3__content-text-indent">
+                            <div class="full3__content-text full3__content-text-third">
                                 Near me
                             </div>
                         </div>                                                        
-                        <div class="col-xs-2">
-                            <div class="full3__content">
-                                <input name="zip" type="text" class="inputtextbox4" maxlength="5" id="zip" placeholder="Zipcode" value="" 
-                                style="width: 141px;"/>
+                        <div class="col-xs-10 col-sm-2 full3__content-text-indent">
+                            <div>
+                                <input name="zip" type="text" class="inputtextbox4 full3__content-third" maxlength="5" id="zip" placeholder="Zipcode" value="" />
                             </div>
                         </div>
-                        <div class="col-xs-2">
-                            <div class="full3__content" style="margin-left: -10px;">
-                                <select name="filter" class="inputtextbox14" id="filter" style="width: 200px">
+                        <div class="col-xs-12 col-sm-2 full3__content-text-indent">
+                            <div class="full3__content-fourth">
+                                <select name="filter" class="inputtextbox14" id="filter">
                                     <option value="0" selected>Show All</option>
                                     <option value="turnaround" > Quick Turnaround </option>
                                     <option value="government" > Government </option>
@@ -1806,8 +1805,8 @@ $('.color_blocks_subcatsearch').click(function (e) {
                                 </select>
                             </div>
                         </div>                                                        
-                        <div class="col-xs-1">
-                            <div class="full3__content">
+                        <div class="col-sm-1">
+                            <div class="full3__content-fifth">
                                 <input type="hidden" name="ean" value="BG170309152801"/>
                             </div>
                         </div>
@@ -1815,9 +1814,9 @@ $('.color_blocks_subcatsearch').click(function (e) {
                 </div>
 
             <div class="site_delivery_info">
-                <div class="full2" style="background: #f4f4f4;">
+                <div class="full2 full2__content">
                     <div class="col-sm-1">
-                        <p class="full2__content-text" style="margin-left: 14px;">Qt250</p>
+                        <p class="full2__content-text-first">Qt250</p>
                     </div>
                     <div class="col-sm-2">
                         <p class="full2__content-text">Services Available</p>                    
@@ -1825,28 +1824,28 @@ $('.color_blocks_subcatsearch').click(function (e) {
                     <div class="col-sm-3">
                         <p class="full2__content-text">Seller Information</p>                     
                     </div>
-                    <div class="col-sm-2" style="margin-left: -30px">
+                    <div class="col-sm-2 full2__content-text-second">
                         <p class="full2__content-text">Turnaround &amp; Ships From</p>                    
                     </div>
                     <div class="col-sm-2">
                         <p class="full2__content-text">Seller`s Comments</p>                     
                     </div>
                 </div>
-                <div class="full2" id="p_onchange" style="padding:20px 0px; border-bottom: 2px solid #e0e0e0;">
-                    <div class="col-sm-1">
-                        <p style="text-align: center;"> 
-                            <span style="font-size: 16px; color: red; font-weight: bold">$250.50</span><br />
+                <div class="full2 full2__tableOne" id="p_onchange">
+                    <div class="col-xs-6 col-sm-1">
+                        <p class="full2__tableOne-price-text"> 
+                            <span class="full2__tableOne-price">$250.50</span><br />
                             FREE shipping 
                         </p>
                         <p></p>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-2 hidden-xs">
                         <p>
-                            <img src="images/drop_ship_big.jpg" width="31" height="27" alt="" style="cursor:default; display: inline-block;"/>
-                            <img src="images/mailing_big.jpg" width="31" height="27" alt="" class="small_icon" style="cursor:default; display: inline-block; margin-left: 31px;"/>
+                            <img class="full2__tableOne-image1" src="images/drop_ship_big.jpg" alt=""/>
+                            <img class="full2__tableOne-image2 small_icon" src="images/mailing_big.jpg" alt="" class=""/>
                         </p>                      
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-xs-6 col-sm-3">
                         <p>
                             Seller:
                             <span class="sallername">
@@ -1860,7 +1859,7 @@ $('.color_blocks_subcatsearch').click(function (e) {
                             (<span class="reviewslink"><a href="#">3</a></span>)
                         </p>                      
                     </div>
-                    <div class="col-sm-2" style="margin-left: -30px">
+                    <div class="col-xs-6 col-xs-push-6 col-sm-2 full2__tableOne-ship">
                         <p>
                             Seller: 
                             <span class="font11normal">Turnaround: 10 business days</span>
@@ -1870,7 +1869,7 @@ $('.color_blocks_subcatsearch').click(function (e) {
                             <span class="font11normal"></span>
                         </p>                      
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-2 hidden-xs">
                         <p>
                             <span class="font11normal"> Ships from: zip 94556 </span>
                             <br/>
@@ -1879,7 +1878,7 @@ $('.color_blocks_subcatsearch').click(function (e) {
                             <span class="font11normal"></span> 
                         </p>                      
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-xs-6 col-xs-pull-6 col-sm-2">
                         <p>
                             <span class="img"> 
                                 <input type="hidden" id="page_url" name="page_url" value="product/frontonly-CustomScoring-CustomDBG170309152801" />
@@ -1888,21 +1887,21 @@ $('.color_blocks_subcatsearch').click(function (e) {
                         </p>                      
                     </div>
                 </div>
-                <div class="full2" id="p_onchange" style="padding:20px 0px;">
-                    <div class="col-sm-1">
-                        <p style="text-align: center;"> 
-                            <span style="font-size: 16px; color: red; font-weight: bold">$250.50</span><br />
+                <div class="full2 full2__tableOne" id="p_onchange">
+                    <div class="col-xs-6 col-sm-1">
+                        <p class="full2__tableOne-price-text"> 
+                            <span class="full2__tableOne-price">$250.50</span><br />
                             FREE shipping 
                         </p>
                         <p></p>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-2 hidden-xs">
                         <p>
-                            <img src="images/drop_ship_big.jpg" width="31" height="27" alt="" style="cursor:default; display: inline-block;"/>
-                            <img src="images/mailing_big.jpg" width="31" height="27" alt="" class="small_icon" style="cursor:default; display: inline-block; margin-left: 31px;"/>
+                            <img class="full2__tableOne-image1" src="images/drop_ship_big.jpg" alt=""/>
+                            <img class="full2__tableOne-image2 small_icon" src="images/mailing_big.jpg" alt="" class=""/>
                         </p>                      
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-xs-6 col-sm-3">
                         <p>
                             Seller:
                             <span class="sallername">
@@ -1916,7 +1915,7 @@ $('.color_blocks_subcatsearch').click(function (e) {
                             (<span class="reviewslink"><a href="#">3</a></span>)
                         </p>                      
                     </div>
-                    <div class="col-sm-2" style="margin-left: -30px">
+                    <div class="col-xs-6 col-xs-push-6 col-sm-2 full2__tableOne-ship">
                         <p>
                             Seller: 
                             <span class="font11normal">Turnaround: 10 business days</span>
@@ -1926,7 +1925,7 @@ $('.color_blocks_subcatsearch').click(function (e) {
                             <span class="font11normal"></span>
                         </p>                      
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-2 hidden-xs">
                         <p>
                             <span class="font11normal"> Ships from: zip 94556 </span>
                             <br/>
@@ -1935,14 +1934,15 @@ $('.color_blocks_subcatsearch').click(function (e) {
                             <span class="font11normal"></span> 
                         </p>                      
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-xs-6 col-xs-pull-6 col-sm-2">
                         <p>
                             <span class="img"> 
                                 <input type="hidden" id="page_url" name="page_url" value="product/frontonly-CustomScoring-CustomDBG170309152801" />
                                 <a class="addtoCart addtoCart__button" id="4" rel="250.50" title="0.00">Add to Cart</a>
                             </span>
                         </p>                      
-                    </div>              
+                    </div>
+                </div>
             </div>
 
 
