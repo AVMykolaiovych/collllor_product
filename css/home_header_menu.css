@@ -1,0 +1,88 @@
+.home_menu ul {
+    padding: 0;
+    list-style: none;
+}
+
+.home_menu ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+
+}
+
+.home_menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0 0 10px 0;
+}
+
+.home_menu ul li a:hover {
+    color: #f60707;
+}
+
+.home_menu ul li ul.dropdown {
+    min-width: 125px; /* Set width of the dropdown */
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: -125px;
+    border: 1px solid #bfbfbf;
+    width: 260px;
+    /*top:35px;*/
+}
+
+.home_menu ul li:hover ul.dropdown {
+    display: block; /* Display the dropdown */
+}
+
+.home_menu ul li ul.dropdown li {
+    display: block;
+    text-align: center;
+    padding: 22px 10px 15px 10px !important;
+    border-bottom: 1px dashed #999999;
+}
+
+.home_menu ul li ul.dropdown li.noborder {
+    border: none !important;
+}
+
+.orange_text {
+    color: #FF6700 !important;
+    display: inline !important;
+}
+
+.home_menu ul li ul.dropdown li a {
+    padding: 0;
+}
+.home_tagline{border-right: 2px solid #a49f9f;padding: 0 8px;color:#7b7979; font-size:14px;}
+.menu_list1{float:right;}
+.menu_list2{float:left;}
+.menu_list_container{float:left;width:879px;padding:28px 0 16px 0;}
+@media only screen and (min-width: 1920px) {
+.menu_list_container{float:left;width:77%;padding:27px 0 10px 0; }
+.menu_list2{float:left;}
+}
+@media only screen and (min-width: 799px) and (max-width: 980px) {
+.home_tagline{border-right: 2px solid #a49f9f;padding: 0 8px;color:#7b7979; font-size:14px;}
+.menu_list1{float:right;}
+.menu_list2{float:left;}
+.menu_list_container{float:left;width:60%;padding:28px 0 16px 0;}
+}
+@media only screen and (min-width: 767px) and (max-width: 800px) {
+.menu_list_container{float:left;width:53%;padding:10px 0 10px 0; }
+.home_tagline{border:none; width:87%; padding: 2%; float:left;font-size:12px;}
+.header_red{float:left; padding: 2%!important;font-size:12px;}
+.menu_list1{float:left; width:90%;}
+.menu_list2{ padding:0;}
+}
+@media only screen and (min-width: 359px) and (max-width: 768px) {
+.menu_list_container{float:left;width:100%;padding:10px 0 10px 0; }
+.home_tagline{border:none; width:87%; padding-right:2%; float:left;}
+.header_red{float:left;}
+}
+@media only screen and  (max-width: 320px) {
+.menu_list_container{float:left;width:100%;padding:10px 0 10px 0; }
+.home_tagline{border:none; width:77%; padding-right:2%; float:left;}
+.header_red{float:left;}
+}

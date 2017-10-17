@@ -1,0 +1,39 @@
+@font-face {
+    font-family: helvetica_bold;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.woff) format("woff"), url(../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.ttf) format("truetype"), url(../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.svg#helvetica_bold) format("svg")
+}
+@font-face {
+	font-weight: normal;
+    font-style: normal;
+    font-family: 'Helvetica Neue';
+    src: url('../font/helveticaneue-webfont.eot');
+    src: url('../font/helveticaneue-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/helveticaneue-webfont.woff') format('woff'),
+    url('../font/helveticaneue-webfont.ttf') format('truetype'),
+    url('../font/helveticaneue-webfont.svg#icons') format('svg');
+	
+}
+@font-face {
+  font-family: 'help';
+  src: url('../font/help.eot');
+  src: url('../font/help.eot?#iefix') format('embedded-opentype'),
+       url('../font/help.woff2') format('woff2'),
+       url('../font/help.woff') format('woff'),
+       url('../font/help.ttf') format('truetype'),
+       url('../font/help.svg#help') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'icon-newuser';
+  src: url('../font/icon-newuser.eot');
+  src: url('../font/icon-newuser.eot?#iefix') format('embedded-opentype'),
+       url('../font/icon-newuser.woff2') format('woff2'),
+       url('../font/icon-newuser.woff') format('woff'),
+       url('../font/icon-newuser.ttf') format('truetype'),
+       url('../font/icon-newuser.svg#icon-newuser') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

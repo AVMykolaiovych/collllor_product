@@ -1,0 +1,11 @@
+.ui-autocomplete-multiselect.ui-state-default {
+    margin-top: 3px;
+}
+
+#bxslider1, #bxslider2, #bxslider3, #bxslider4, #bxslider5, #bxslider6, .slider_subcat {
+    visibility: hidden;
+}
+
+.featured-area-container {
+    visibility: hidden;
+}

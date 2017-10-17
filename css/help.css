@@ -1,0 +1,207 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background: #ecfcd5;
+}
+
+h1 {
+    text-align: center;
+    color: #4366b8;
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Styles of the hints*/
+.collllor__help {
+	display: none;
+    position: absolute;
+    width: 300px;
+    padding: 20px 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    background-color: #4366b8;
+	-webkit-animation: fade .6s;
+	-moz-animation: fade .6s;
+	animation: fade .6s;
+}
+
+/*Hints location on the page (correction)*/
+.collllor__help-first {
+    z-index: 30;
+    right: 485px;
+    top: 305px;
+}
+
+.collllor__help-second {
+    z-index: 30;
+    right: 835px;
+    top: 690px;
+
+}
+
+.collllor__help-third {
+    z-index: 30;
+    right: 355px;
+    top: 690px;
+}
+
+.collllor__help-fourth {
+    z-index: 30;
+    left: 335px;
+    top: 790px;
+}
+
+.collllor__help-fifth {
+    z-index: 30;
+    left: 335px;
+    top: 855px;
+}
+
+.collllor__help-sixth {
+    z-index: 30;
+    left: 430px;
+    top: 855px;
+}
+
+.collllor__help-seventh {
+    z-index: 30;
+    left: 370px;
+    top: 930px;
+}
+
+.collllor__help-last {
+    z-index: 30;
+    left: 370px;
+    top: 1150px;
+}
+/*End of hints location on the page (correction)*/
+
+/*Styles of help icon*/
+.collllor__help-icon {
+    display: block;
+    position: fixed;
+    top: 150px;
+    right: 50px;
+    z-index: 31;
+    cursor: pointer;
+}
+
+/*Styles of the hint triangle */
+.collllor__help:before {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    transition: 150ms ease-out transform;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #4366b8;
+    top: -10px;
+    right: 145px;
+}
+
+/*Styles of the last hint triangle */
+.collllor__help-last:before {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    transition: 150ms ease-out transform;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #4366b8 transparent transparent transparent;
+    top: 218px;
+    right: 145px;
+}
+
+/*Styles elements inside the hints*/
+.collllor__help .collllor__help-title {
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+.collllor__help .collllor__help-description {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 18px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.collllor__help .collllor__help-button {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.collllor__help .collllor__help-button button.not-now {
+    border: 1px solid white;
+    background-color: #4366b8;
+    color: white;
+}
+
+.collllor__help .collllor__help-button button {
+    border: none;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 15px;
+    background-color: white;
+    color: #4366b8;
+    transition: 50ms ease-out all;
+}
+
+.button {
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 20px;
+    border: 1px solid #444;
+    color: #000;
+    background: #fff;
+    font-size: 14px;
+    line-height: 28px;
+    height: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    align-items: flex-start;
+    text-align: center;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    margin: 0;
+    -webkit-writing-mode: horizontal-tb;
+}
+/*End of styles elements inside the hints*/
