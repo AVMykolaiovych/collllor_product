@@ -1752,12 +1752,12 @@ $('.color_blocks_subcatsearch').click(function (e) {
                     <input type="hidden" value="" name="added_now" id="added_now"/>
                     <form id="frmFltr" name="frmFltr" action="site_product.php" method="post">
                         <input type="hidden" name="pId" value="1400"/>
-                        <div class="col-xs-2 col-sm-1 full3__content-text-indent">
+                        <div class="col-xs-4 col-sm-1">
                             <div class="full3__content-text full3__content-text-first">
                                 Quantity
                             </div>
                         </div>
-                        <div class="col-xs-10 col-sm-1 full3__content-text-indent">
+                        <div class="col-xs-8 col-sm-1">
                             <div>
                                 <select name="qty" class="inputtextbox4 full3__content-first" id="qty" autocomplete="off">
                                     <option  value="250" >250</option>
@@ -1769,12 +1769,12 @@ $('.color_blocks_subcatsearch').click(function (e) {
                                 </select>
                             </div>
                         </div>
-                        <div class="col-xs-2 col-sm-1 full3__content-text-indent">
+                        <div class="col-xs-4 col-sm-1">
                             <div class="full3__content-text full3__content-text-second">
                                 Pages
                             </div>
                         </div>
-                        <div class="col-xs-10 col-sm-1 full3__content-text-indent">
+                        <div class="col-xs-8 col-sm-1">
                             <div class="full3__content-second">
                                 <select name="multipage" class="inputtextbox4"  id="multipage">
                                     <option value="76" selected>76</option>
@@ -1782,18 +1782,18 @@ $('.color_blocks_subcatsearch').click(function (e) {
                                 </select>
                             </div>
                         </div>
-                        <div class="col-xs-2 full3__content-null"></div>                             
-                        <div class="col-xs-2 col-sm-1 full3__content-text-indent">
+                        <div class="col-xs-2 hidden-xs"></div>                             
+                        <div class="col-xs-4 col-sm-1">
                             <div class="full3__content-text full3__content-text-third">
                                 Near me
                             </div>
                         </div>                                                        
-                        <div class="col-xs-10 col-sm-2 full3__content-text-indent">
+                        <div class="col-xs-8 col-sm-2">
                             <div>
                                 <input name="zip" type="text" class="inputtextbox4 full3__content-third" maxlength="5" id="zip" placeholder="Zipcode" value="" />
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-2 full3__content-text-indent">
+                        <div class="col-xs-8 col-xs-offset-4 col-sm-2 col-sm-offset-0">
                             <div class="full3__content-fourth">
                                 <select name="filter" class="inputtextbox14" id="filter">
                                     <option value="0" selected>Show All</option>
@@ -1831,8 +1831,8 @@ $('.color_blocks_subcatsearch').click(function (e) {
                         <p class="full2__content-text">Seller`s Comments</p>                     
                     </div>
                 </div>
-                <div class="full2 full2__tableOne" id="p_onchange">
-                    <div class="col-xs-6 col-sm-1">
+                <div class="full2 full2__tableOne clearfix" id="p_onchange">
+                    <div class="col-xs-5 col-sm-1">
                         <p class="full2__tableOne-price-text"> 
                             <span class="full2__tableOne-price">$250.50</span><br />
                             FREE shipping 
@@ -1845,7 +1845,7 @@ $('.color_blocks_subcatsearch').click(function (e) {
                             <img class="full2__tableOne-image2 small_icon" src="images/mailing_big.jpg" alt="" class=""/>
                         </p>                      
                     </div>
-                    <div class="col-xs-6 col-sm-3">
+                    <div class="col-xs-7 col-sm-3">
                         <p>
                             Seller:
                             <span class="sallername">
@@ -1859,7 +1859,15 @@ $('.color_blocks_subcatsearch').click(function (e) {
                             (<span class="reviewslink"><a href="#">3</a></span>)
                         </p>                      
                     </div>
-                    <div class="col-xs-6 col-xs-push-6 col-sm-2 full2__tableOne-ship">
+                    <div class="col-xs-5 visible-xs">
+                        <p>
+                            <span class="img"> 
+                                <input type="hidden" id="page_url" name="page_url" value="product/frontonly-CustomScoring-CustomDBG170309152801" />
+                                <a class="addtoCart addtoCart__button" id="4" rel="250.50" title="0.00">Add to Cart</a>
+                            </span>
+                        </p>                      
+                    </div>
+                    <div class="col-xs-7 col-sm-2 full2__tableOne-ship">
                         <p>
                             Seller: 
                             <span class="font11normal">Turnaround: 10 business days</span>
@@ -1878,7 +1886,7 @@ $('.color_blocks_subcatsearch').click(function (e) {
                             <span class="font11normal"></span> 
                         </p>                      
                     </div>
-                    <div class="col-xs-6 col-xs-pull-6 col-sm-2">
+                    <div class="col-sm-2 hidden-xs">
                         <p>
                             <span class="img"> 
                                 <input type="hidden" id="page_url" name="page_url" value="product/frontonly-CustomScoring-CustomDBG170309152801" />
@@ -1887,8 +1895,8 @@ $('.color_blocks_subcatsearch').click(function (e) {
                         </p>                      
                     </div>
                 </div>
-                <div class="full2 full2__tableOne" id="p_onchange">
-                    <div class="col-xs-6 col-sm-1">
+                <div class="full2 full2__tableOne clearfix" id="p_onchange">
+                    <div class="col-xs-5 col-sm-1">
                         <p class="full2__tableOne-price-text"> 
                             <span class="full2__tableOne-price">$250.50</span><br />
                             FREE shipping 
@@ -1901,7 +1909,7 @@ $('.color_blocks_subcatsearch').click(function (e) {
                             <img class="full2__tableOne-image2 small_icon" src="images/mailing_big.jpg" alt="" class=""/>
                         </p>                      
                     </div>
-                    <div class="col-xs-6 col-sm-3">
+                    <div class="col-xs-7 col-sm-3">
                         <p>
                             Seller:
                             <span class="sallername">
@@ -1915,7 +1923,15 @@ $('.color_blocks_subcatsearch').click(function (e) {
                             (<span class="reviewslink"><a href="#">3</a></span>)
                         </p>                      
                     </div>
-                    <div class="col-xs-6 col-xs-push-6 col-sm-2 full2__tableOne-ship">
+                    <div class="col-xs-5 visible-xs">
+                        <p>
+                            <span class="img"> 
+                                <input type="hidden" id="page_url" name="page_url" value="product/frontonly-CustomScoring-CustomDBG170309152801" />
+                                <a class="addtoCart addtoCart__button" id="4" rel="250.50" title="0.00">Add to Cart</a>
+                            </span>
+                        </p>                      
+                    </div>
+                    <div class="col-xs-7 col-sm-2 full2__tableOne-ship">
                         <p>
                             Seller: 
                             <span class="font11normal">Turnaround: 10 business days</span>
@@ -1934,7 +1950,7 @@ $('.color_blocks_subcatsearch').click(function (e) {
                             <span class="font11normal"></span> 
                         </p>                      
                     </div>
-                    <div class="col-xs-6 col-xs-pull-6 col-sm-2">
+                    <div class="col-sm-2 hidden-xs">
                         <p>
                             <span class="img"> 
                                 <input type="hidden" id="page_url" name="page_url" value="product/frontonly-CustomScoring-CustomDBG170309152801" />

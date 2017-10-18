@@ -456,7 +456,7 @@ a {
     width: 100%;
     float: left;
     margin-bottom: 10px;
-	 margin-top: 10px;
+	margin-top: 10px;
     clear: both;
 }
 .body_main_section_search {
@@ -3116,6 +3116,9 @@ label.error {
 .full2__tableOne {
     padding:20px 0px; 
     border-bottom: 2px solid #e0e0e0;
+}
+.full2__tableOne:last-of-type {
+    border-bottom: none;    
 }
 .full2__tableOne-price {
     font-size: 16px; 
@@ -7390,10 +7393,7 @@ input.error {
     }
     .site_products_right {
         display: none;
-    }
-    .full3__content-null {
-        display: none;
-    }  
+    } 
     /*  .half {
         float: left;
         padding: 0 3%;
@@ -7447,30 +7447,39 @@ input.error {
     .home_menu ul {
         width: 100%;
     }
-    .full3__content-text-third {
-        width: 122%;
-    }
-    .full3__content-text-indent {
-        text-align: center;
-        margin-bottom: 10px;
+    .full2__tableOne-ship {
+        margin-left: 0px;
     }
     .full2.full2__content {
         display: none;
     }
-    .full2.full2__tableOne > div:nth-of-type(2) {
-        display: none;
-    }
-    .full2.full2__tableOne > div:nth-of-type(5) {
-        display: none;
-    }
-    .full2__tableOne-ship {
-        margin-left: 0px;
-    }
     .full2__tableOne-price-text {
         text-align: left;
     }
-    .full2.full2__tableOne {
-        margin-bottom: 20px;
+    .addtoCart__button {
+        width: 120px;
+    }
+    .inputtextbox4 {
+        width: 250px;
+        border-bottom: none;
+    }
+    .inputtextbox14 {
+        width: 250px;
+    }
+    .full3__content-text-second {
+        margin-left: 12px;
+    }
+    .full3__content-text-first {
+        margin-left: 12px;        
+    }   
+    .inputtextbox14 {
+        margin-left: 10px;        
+    }
+    .full2__tableOne {
+        padding: 20px 0; 
+    }
+    .full3 {
+        background: none;
     }
 }
 
@@ -7494,7 +7503,40 @@ input.error {
     .home_menu ul {
         width: 100%;
     }
-	
+    .full2__tableOne-ship {
+        margin-left: 0px;
+    }
+    .full2.full2__content {
+        display: none;
+    }
+    .full2__tableOne-price-text {
+        text-align: left;
+    }
+    .addtoCart__button {
+        width: 120px;
+    }
+    .inputtextbox4 {
+        width: 200px;
+        border-bottom: none;
+    }
+    .inputtextbox14 {
+        width: 200px;
+    }
+    .full3__content-text-second {
+        margin-left: 12px;
+    }
+    .full3__content-text-first {
+        margin-left: 12px;        
+    }	
+    .inputtextbox14 {
+        margin-left: 10px;        
+    }
+    .full2__tableOne {
+        padding: 20px 0; 
+    }
+    .full3 {
+        background: none;
+    }
 }
 
 /* for ipad*/
